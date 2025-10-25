@@ -44,21 +44,21 @@ export default function ToDoList() {
 
   return (
     <div>
-      <input
-        placeholder="Add a task"
-        value={newtodo}
-        onChange={updateTodovalue}
-      ></input>
-      <br></br>
-      <br></br>
-      <button onClick={addNewtask}>Add task</button>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <h1>To Do List</h1>
       <hr></hr>
-      <h2>Tasks ToDo</h2>
-      <ul>
+      <br></br>
+      <div className="first">
+        <input
+          placeholder="Add a task"
+          value={newtodo}
+          onChange={updateTodovalue}
+        ></input>
+        &nbsp;&nbsp;&nbsp;
+        <button onClick={addNewtask}>Add task</button>
+      </div>
+
+      <h2>tasks to do</h2>
+      <ul style={{ listStylePosition: "inside", padding: "0" }}>
         {todos.map((todo) => (
           <li key={todo.id}>
             <span
@@ -66,7 +66,7 @@ export default function ToDoList() {
             >
               {todo.task}
             </span>
-            &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button
               onClick={() => {
                 deleteTodo(todo.id);
@@ -74,6 +74,7 @@ export default function ToDoList() {
             >
               delete
             </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
             <button
               onClick={() => {
                 MarkAsDone(todo.id);
@@ -84,6 +85,8 @@ export default function ToDoList() {
           </li>
         ))}
       </ul>
+      <br></br>
+      <hr></hr>
       <br></br>
       <button onClick={MarkAllasdone}>Mark All As Done</button>
     </div>

@@ -1,16 +1,18 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: rgb(229, 125, 198);
+}
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ballet {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 button {
@@ -18,23 +20,27 @@ button {
   color: white;
   font-size: 16px;
   font-weight: 500;
-  padding: 10px 22px;
+  padding: 10px 20px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+  box-shadow: 0 4px 10px #ff69b44d;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  color: rgb(65, 43, 59);
 }
 button:hover {
-  background-color: black;
+  background: rgb(65, 43, 59);
   box-shadow: 0 6px 14px rgba(239, 239, 239, 0.4);
   transform: translateY(-2px);
+  color: white;
 }
 
 input {
   background-color: rgb(255, 198, 244);
   color: black;
-  width: 280px;
+  width: 320px;
   padding: 12px 16px;
   font-size: 16px;
   outline: none;
@@ -50,4 +56,25 @@ input:focus {
   border-color: #ff0492;
   box-shadow: 8px 8px 8px rgba(145, 1, 102, 0.4);
   background-color: #fff8fd;
+}
+
+span {
+  font-size: 25px;
+}
+h1 {
+  font-family: "Ballet", cursive;
+  color: #79003c;
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-family: "Ballet", cursive;
+  color: #060003;
+  font-size: 80px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
 }
