@@ -50,13 +50,14 @@ export default function ToDoList() {
         onChange={updateTodovalue}
       ></input>
       <br></br>
+      <br></br>
       <button onClick={addNewtask}>Add task</button>
       <br></br>
       <br></br>
       <br></br>
       <br></br>
       <hr></hr>
-      <h4>Tasks ToDo</h4>
+      <h2>Tasks ToDo</h2>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>
