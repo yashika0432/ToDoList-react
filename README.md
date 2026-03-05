@@ -5,7 +5,7 @@ This project demonstrates core React concepts like components, state management,
 
 ---
 
-🚀 Features
+## 🚀 Features
 - ➕ Add new tasks
 - ✅ Mark tasks as completed
 - 🗑 Delete tasks
@@ -13,13 +13,17 @@ This project demonstrates core React concepts like components, state management,
 - 📱 Responsive design
 - ⚡ Fast and lightweight
 
-🛠 Built With
+---
+
+## 🛠 Built With
 - React
 - JavaScript (ES6+)
 - HTML5
 - CSS3
 
-⚙️ Installation
+---
+
+## ⚙️ Installation
 1.Clone the repository
 ```bash
 git clone https://github.com/yourusername/react-todo-list.git
@@ -40,5 +44,29 @@ npm install
 npm start
 ```
 
+---
 
-(https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Future Improvements
+- Local storage support
+- Drag and drop task sorting
+- Dark mode
+- Due dates and reminders
+- Backend integration
+
+---
+
+## 🤝 Contributing
+- Contributions are welcome!
+- Fork the repositor
+- Create a new branch
+- Commit your changes
+- Open a pull request
+
+---
+
+## 📜 License
+This project is open source and available under the MIT License.
+
+---
+
+⭐ If you found this project useful, consider starring the repo!
