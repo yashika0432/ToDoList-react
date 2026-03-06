@@ -26,7 +26,7 @@ This project demonstrates core React concepts like components, state management,
 ## ⚙️ Installation
 1.Clone the repository
 ```bash
-git clone https://github.com/yourusername/react-todo-list.git
+git clone https://github.com/yashika0432/ToDoList-react
 ```
 
 2.Navigate to the project folder
