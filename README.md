@@ -31,7 +31,7 @@ git clone https://github.com/yashika0432/ToDoList-react
 
 2.Navigate to the project folder
 ```bash
-cd react-todo-list
+cd ToDoList-react
 ```
 
 3.Install dependencies
